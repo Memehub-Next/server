@@ -1,0 +1,8 @@
+log: stdout
+tunnels:
+  backend:
+    proto: http
+    hostname: backend.memehub.lol
+    addr: 127.0.0.1:5000
+    schemes: ["https", "http"]
+    inspect: false
