@@ -9,3 +9,5 @@ services:
       - type: bind
         source: ./ngrok.yml
         target: /home/ngrok/.ngrok2/ngrok.yml
+    ports:
+      - 4040:4040
